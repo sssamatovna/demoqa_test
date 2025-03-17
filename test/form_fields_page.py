@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver import Keys
 
-class FromPage:
+class FormFieldsPage:
     def __init__(self, driver):
         self.driver = driver
         self.first_name_input = driver.find_element(By.ID, "firstName")
